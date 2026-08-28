@@ -3,7 +3,7 @@ import express from "express";
 import authRoutes from "../src/features/auth/routes/auth.routes.js"
 import documentsRouter from "./features/documents/routes/documents.routes.js"
 import queryRouter from "./features/query/routes/query.routes.js"
-
+import redis from "../src/db/redis.js";
 
 
 import cors from "cors";
